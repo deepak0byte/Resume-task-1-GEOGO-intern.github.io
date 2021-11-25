@@ -1,0 +1,80 @@
+*{
+    margin: auto;
+    padding: 0px;
+    max-width: 600px;
+}
+#name{
+    font-family: serif;
+}
+.heading{
+    font-size: 23PX;
+    font-family:serif;
+}
+.container{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.detail{
+    display: flex;
+    text-align: center;
+    font-style: italic;
+    justify-content: center;
+}
+.important-data{
+    margin: 2px;
+    font-size: 13px;
+}
+
+#table{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.skill{
+    font-family: serif;
+}
+.award{
+    font-family: serif;
+    text-decoration: underline;
+    font-style: italic;
+}
+.awards a{
+    font-style: italic;
+}
+.coding p a{
+    font-style: italic;
+}
+.profiles{
+    display: flex;
+    margin-top: 5px;
+}
+.profilesLink{
+    padding-right: 10px;
+}
+.typesOfSkills{
+    margin-top: 5px;
+}
+#btn{
+    color: black;
+    background-color: rgb(23, 135, 240);
+    padding: 5px;
+    margin: 5px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    font-style: bold;
+    font-size: 20px;
+}
